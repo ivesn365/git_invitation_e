@@ -1,0 +1,328 @@
+[26-Jan-2026 07:35:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list' in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php:12
+Stack trace:
+#0 /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php(12): PDOStatement->execute()
+#1 /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Events.php(215): Query::CRUD('INSERT INTO `ev...')
+#2 /home/ihsrdcco/public_html/event.ihs-rdc.com/sysControl/Controleur.php(98): Events->ajouter()
+#3 {main}
+  thrown in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php on line 12
+[26-Jan-2026 07:36:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list' in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php:12
+Stack trace:
+#0 /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php(12): PDOStatement->execute()
+#1 /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Events.php(215): Query::CRUD('INSERT INTO `ev...')
+#2 /home/ihsrdcco/public_html/event.ihs-rdc.com/sysControl/Controleur.php(100): Events->ajouter()
+#3 {main}
+  thrown in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Query.php on line 12
+[26-Jan-2026 07:55:35 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:35 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:35 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:55:35 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:35 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:55:35 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:55 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:55 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:55:55 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:55:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:55:55 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:57:18 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:57:18 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:57:18 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:57:18 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[26-Jan-2026 07:57:18 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[26-Jan-2026 07:57:18 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[27-Jan-2026 20:31:33 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[27-Jan-2026 20:31:33 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[27-Jan-2026 20:31:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[27-Jan-2026 20:31:33 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[27-Jan-2026 20:31:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[27-Jan-2026 20:31:33 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:54:33 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:54:33 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:54:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 07:54:33 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:54:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 07:54:33 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:56:18 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:56:18 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:56:18 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 07:56:18 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 07:56:18 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 07:56:18 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 08:34:04 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 08:34:04 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 08:34:04 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 08:34:04 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[28-Jan-2026 08:34:04 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[28-Jan-2026 08:34:04 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:19 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:19 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:32 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:32 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:34 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:34 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[30-Jan-2026 20:56:36 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[30-Jan-2026 20:56:36 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[31-Jan-2026 14:13:22 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[31-Jan-2026 14:13:22 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[06-Feb-2026 11:28:51 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[06-Feb-2026 11:28:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 08:32:55 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:32:55 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:32:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 08:32:55 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:32:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 08:32:55 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:33:20 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:33:20 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:33:20 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 08:33:20 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 08:33:20 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 08:33:20 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:32:28 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:32:28 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:32:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:32:28 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:32:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:32:28 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:13 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:13 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:13 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:13 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:13 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:13 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:23 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:23 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:23 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:23 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:23 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:23 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:50 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:50 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:50 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:50 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 11:34:50 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 11:34:50 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:40:42 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:40:42 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:40:42 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 17:40:42 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:40:42 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 17:40:42 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:44:22 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:44:22 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:44:22 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 17:44:22 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[07-Apr-2026 17:44:22 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[07-Apr-2026 17:44:22 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[08-Apr-2026 10:28:06 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:07 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:07 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:21 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:21 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:27 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:27 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:28:28 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:28:28 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:16 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:16 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:47 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:47 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:51 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:51 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 10:29:55 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[08-Apr-2026 10:29:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[08-Apr-2026 11:30:17 UTC] PHP Warning:  Undefined array key "idusersss" in /home/ihsrdcco/public_html/event.ihs-rdc.com/sysControl/Controleur.php on line 229
+[08-Apr-2026 11:30:17 UTC] PHP Warning:  Undefined array key "idEvent" in /home/ihsrdcco/public_html/event.ihs-rdc.com/sysControl/Controleur.php on line 230
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:38:55 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:38:55 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:12 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:12 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "nom" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "idEvent" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "date" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "idEmplacement" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "nbre" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "tel" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 13:39:33 UTC] PHP Warning:  Attempt to read property "password" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Billet.php on line 108
+[09-Apr-2026 13:39:33 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 16:31:03 UTC] PHP Warning:  Attempt to read property "id" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[09-Apr-2026 16:31:03 UTC] PHP Warning:  Attempt to read property "pseudo" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[09-Apr-2026 16:31:03 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 16:31:03 UTC] PHP Warning:  Attempt to read property "role" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
+[09-Apr-2026 16:31:03 UTC] PHP Deprecated:  base64_decode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/AES.php on line 31
+[09-Apr-2026 16:31:03 UTC] PHP Warning:  Attempt to read property "status" on bool in /home/ihsrdcco/public_html/event.ihs-rdc.com/models/Users.php on line 84
